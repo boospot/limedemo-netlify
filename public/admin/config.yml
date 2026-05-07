@@ -3,7 +3,12 @@ backend:
   branch: main
   base_url: https://limedemo.com
 
-local_backend: true
+identity:
+  enable_email_identity: true
+
+frontend:
+  identity:
+    enable_login: true
 
 media_folder: "public/images"
 public_folder: "/images"
