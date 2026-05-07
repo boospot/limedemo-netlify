@@ -1,5 +1,7 @@
 backend:
-  name: test-repo
+  name: git-gateway
+  branch: main
+  base_url: https://limedemo.com
 
 local_backend: true
 
