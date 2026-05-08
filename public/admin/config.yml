@@ -1,11 +1,10 @@
 backend:
-  name: netlify
+  name: git-gateway
   branch: main
+  base_url: https://limedemo.com
 
 media_folder: "public/images"
 public_folder: "/images"
-
-local_backend: true
 
 site_url: https://limedemo.com
 
