@@ -1,17 +1,15 @@
 backend:
-  name: git-gateway
+  name: netlify
   branch: main
-  base_url: https://limedemo.com
-
-identity:
-  enable_email_identity: true
-
-frontend:
-  identity:
-    enable_login: true
 
 media_folder: "public/images"
 public_folder: "/images"
+
+local_backend: true
+
+site_url: https://limedemo.com
+
+show_login_links: true
 
 collections:
   - name: "pages"
