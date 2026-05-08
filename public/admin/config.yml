@@ -1,14 +1,9 @@
 backend:
   name: git-gateway
   branch: main
-  base_url: https://limedemo.com
 
 media_folder: "public/images"
 public_folder: "/images"
-
-site_url: https://limedemo.com
-
-show_login_links: true
 
 collections:
   - name: "pages"
